@@ -12,7 +12,7 @@ public class Main {
         String request = "пожалуйста форматируйте код";
         // исправили теперь build succcessful
 //        if (isFormatted) {
-        String infix = "A*(B*C+D*E)+F";
+        String infix = "A+(B*C)-(D*E)+F/D";
         String postfix = infixToPostfix(infix);
         System.out.println(postfix);
 //        }
