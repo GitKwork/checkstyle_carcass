@@ -8,8 +8,8 @@ import java.util.Stack;
 public class Main {
 
     public static void main(String[] args) {
-//        boolean isFormatted = false;
-//        String request = "пожалуйста форматируйте код";
+        boolean isFormatted = false;
+        String request = "пожалуйста форматируйте код";
         // исправили теперь build succcessful
 //        if (isFormatted) {
         String infix = "A*(B*C+D*E)+F";
